@@ -163,7 +163,7 @@ include("database_connection.php");
                     {
                         // console.log($("#item_table").find('tr:gt(0)'));
                         $("#item_table").find('tr:gt(0)').remove();  
-                        $("#error").html("<div class='alert alert-success'>Item Details Saved</div>");
+                        $("#error").html(`<div class='alert alert-success'>Item Details Saved</div>`);
                     }
                 }
             });
